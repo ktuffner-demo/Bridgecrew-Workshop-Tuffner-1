@@ -1,6 +1,6 @@
 resource "aws_instance" "test" {
   monitoring    = "true"
-  ami           = "ami-05803413c51f242b7"
+  ami           = "ami-033b95fb8079dc481"
   instance_type = "t2.micro"
   metadata_options {
     http_endpoint = "disabled"
